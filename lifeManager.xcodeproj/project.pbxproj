@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A104C01516AAF79800A1DFB0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A104C01416AAF79800A1DFB0 /* MainViewController.m */; };
+		A104C01916AB003900A1DFB0 /* DeleteRoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A104C01816AB003900A1DFB0 /* DeleteRoleViewController.m */; };
+		A104C01C16AB018A00A1DFB0 /* SelectRoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A104C01B16AB018A00A1DFB0 /* SelectRoleViewController.m */; };
+		A104C01F16AB09BE00A1DFB0 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A104C01E16AB09BE00A1DFB0 /* ScoreViewController.m */; };
+		A104C02216AB09D900A1DFB0 /* RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A104C02116AB09D900A1DFB0 /* RewardViewController.m */; };
+		A14FA54716A59AD600F75C7E /* RecordTableViewCellBackgroundSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A14FA54516A59AD600F75C7E /* RecordTableViewCellBackgroundSelected@2x.png */; };
+		A1E7FD1016A260A6008BE866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E7FD0F16A260A6008BE866 /* UIKit.framework */; };
+		A1E7FD1216A260A6008BE866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E7FD1116A260A6008BE866 /* Foundation.framework */; };
+		A1E7FD1416A260A6008BE866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E7FD1316A260A6008BE866 /* CoreGraphics.framework */; };
+		A1E7FD1A16A260A6008BE866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1E7FD1816A260A6008BE866 /* InfoPlist.strings */; };
+		A1E7FD1C16A260A6008BE866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7FD1B16A260A6008BE866 /* main.m */; };
+		A1E7FD2016A260A6008BE866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7FD1F16A260A6008BE866 /* AppDelegate.m */; };
+		A1E7FD2216A260A6008BE866 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7FD2116A260A6008BE866 /* Default.png */; };
+		A1E7FD2416A260A6008BE866 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7FD2316A260A6008BE866 /* Default@2x.png */; };
+		A1E7FD2616A260A6008BE866 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E7FD2516A260A6008BE866 /* Default-568h@2x.png */; };
+		A1E7FD2916A260A6008BE866 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E7FD2716A260A6008BE866 /* MainStoryboard_iPhone.storyboard */; };
+		A1E7FD2C16A260A6008BE866 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E7FD2A16A260A6008BE866 /* MainStoryboard_iPad.storyboard */; };
+		A1E7FD2F16A260A6008BE866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7FD2E16A260A6008BE866 /* ViewController.m */; };
+		A1F0690016A2B1F8003EACC9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F068FF16A2B1F8003EACC9 /* HomeViewController.m */; };
+		A1F0690416A2B390003EACC9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0690316A2B390003EACC9 /* LoginViewController.m */; };
+		A1F0690716A2B3C7003EACC9 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0690616A2B3C7003EACC9 /* RegisterViewController.m */; };
+		A1F0690E16A2C548003EACC9 /* resManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0690D16A2C548003EACC9 /* resManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A104C01316AAF79800A1DFB0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A104C01416AAF79800A1DFB0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A104C01716AB003900A1DFB0 /* DeleteRoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteRoleViewController.h; sourceTree = "<group>"; };
+		A104C01816AB003900A1DFB0 /* DeleteRoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteRoleViewController.m; sourceTree = "<group>"; };
+		A104C01A16AB018900A1DFB0 /* SelectRoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectRoleViewController.h; sourceTree = "<group>"; };
+		A104C01B16AB018A00A1DFB0 /* SelectRoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectRoleViewController.m; sourceTree = "<group>"; };
+		A104C01D16AB09BE00A1DFB0 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		A104C01E16AB09BE00A1DFB0 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		A104C02016AB09D900A1DFB0 /* RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardViewController.h; sourceTree = "<group>"; };
+		A104C02116AB09D900A1DFB0 /* RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardViewController.m; sourceTree = "<group>"; };
+		A14FA54516A59AD600F75C7E /* RecordTableViewCellBackgroundSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RecordTableViewCellBackgroundSelected@2x.png"; path = "lifeManager/resource/RecordTableViewCellBackgroundSelected@2x.png"; sourceTree = "<group>"; };
+		A1E7FD0B16A260A6008BE866 /* lifeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7FD0F16A260A6008BE866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1E7FD1116A260A6008BE866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1E7FD1316A260A6008BE866 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1E7FD1716A260A6008BE866 /* lifeManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lifeManager-Info.plist"; sourceTree = "<group>"; };
+		A1E7FD1916A260A6008BE866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1E7FD1B16A260A6008BE866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E7FD1D16A260A6008BE866 /* lifeManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "lifeManager-Prefix.pch"; path = "lifeManager/lifeManager-Prefix.pch"; sourceTree = "<group>"; };
+		A1E7FD1E16A260A6008BE866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1E7FD1F16A260A6008BE866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1E7FD2116A260A6008BE866 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A1E7FD2316A260A6008BE866 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A1E7FD2516A260A6008BE866 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1E7FD2816A260A6008BE866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A1E7FD2B16A260A6008BE866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A1E7FD2D16A260A6008BE866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1E7FD2E16A260A6008BE866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1F068FE16A2B1F8003EACC9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A1F068FF16A2B1F8003EACC9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A1F0690216A2B390003EACC9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A1F0690316A2B390003EACC9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A1F0690516A2B3C7003EACC9 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		A1F0690616A2B3C7003EACC9 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		A1F0690C16A2C548003EACC9 /* resManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resManager.h; sourceTree = "<group>"; };
+		A1F0690D16A2C548003EACC9 /* resManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E7FD0816A260A6008BE866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7FD1016A260A6008BE866 /* UIKit.framework in Frameworks */,
+				A1E7FD1216A260A6008BE866 /* Foundation.framework in Frameworks */,
+				A1E7FD1416A260A6008BE866 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A104C01116AAF6B300A1DFB0 /* DeprecateClass */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7FD2D16A260A6008BE866 /* ViewController.h */,
+				A1E7FD2E16A260A6008BE866 /* ViewController.m */,
+				A1F068FE16A2B1F8003EACC9 /* HomeViewController.h */,
+				A1F068FF16A2B1F8003EACC9 /* HomeViewController.m */,
+			);
+			name = DeprecateClass;
+			sourceTree = "<group>";
+		};
+		A104C01616AAF7AB00A1DFB0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A1F0690C16A2C548003EACC9 /* resManager.h */,
+				A1F0690D16A2C548003EACC9 /* resManager.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A14FA53216A5858000F75C7E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A14FA54516A59AD600F75C7E /* RecordTableViewCellBackgroundSelected@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A1E7FD0016A260A6008BE866 = {
+			isa = PBXGroup;
+			children = (
+				A1E7FD1D16A260A6008BE866 /* lifeManager-Prefix.pch */,
+				A14FA53216A5858000F75C7E /* Resource */,
+				A1E7FD1516A260A6008BE866 /* lifeManager */,
+				A1E7FD0E16A260A6008BE866 /* Frameworks */,
+				A1E7FD0C16A260A6008BE866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E7FD0C16A260A6008BE866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7FD0B16A260A6008BE866 /* lifeManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E7FD0E16A260A6008BE866 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7FD0F16A260A6008BE866 /* UIKit.framework */,
+				A1E7FD1116A260A6008BE866 /* Foundation.framework */,
+				A1E7FD1316A260A6008BE866 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E7FD1516A260A6008BE866 /* lifeManager */ = {
+			isa = PBXGroup;
+			children = (
+				A104C01616AAF7AB00A1DFB0 /* Util */,
+				A104C01116AAF6B300A1DFB0 /* DeprecateClass */,
+				A1E7FD1E16A260A6008BE866 /* AppDelegate.h */,
+				A1E7FD1F16A260A6008BE866 /* AppDelegate.m */,
+				A1E7FD2716A260A6008BE866 /* MainStoryboard_iPhone.storyboard */,
+				A1E7FD2A16A260A6008BE866 /* MainStoryboard_iPad.storyboard */,
+				A104C01316AAF79800A1DFB0 /* MainViewController.h */,
+				A104C01416AAF79800A1DFB0 /* MainViewController.m */,
+				A1F0690216A2B390003EACC9 /* LoginViewController.h */,
+				A1F0690316A2B390003EACC9 /* LoginViewController.m */,
+				A1F0690516A2B3C7003EACC9 /* RegisterViewController.h */,
+				A1F0690616A2B3C7003EACC9 /* RegisterViewController.m */,
+				A104C01716AB003900A1DFB0 /* DeleteRoleViewController.h */,
+				A104C01816AB003900A1DFB0 /* DeleteRoleViewController.m */,
+				A104C01A16AB018900A1DFB0 /* SelectRoleViewController.h */,
+				A104C01B16AB018A00A1DFB0 /* SelectRoleViewController.m */,
+				A104C01D16AB09BE00A1DFB0 /* ScoreViewController.h */,
+				A104C01E16AB09BE00A1DFB0 /* ScoreViewController.m */,
+				A104C02016AB09D900A1DFB0 /* RewardViewController.h */,
+				A104C02116AB09D900A1DFB0 /* RewardViewController.m */,
+				A1E7FD1616A260A6008BE866 /* Supporting Files */,
+			);
+			path = lifeManager;
+			sourceTree = "<group>";
+		};
+		A1E7FD1616A260A6008BE866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7FD1716A260A6008BE866 /* lifeManager-Info.plist */,
+				A1E7FD1816A260A6008BE866 /* InfoPlist.strings */,
+				A1E7FD1B16A260A6008BE866 /* main.m */,
+				A1E7FD2116A260A6008BE866 /* Default.png */,
+				A1E7FD2316A260A6008BE866 /* Default@2x.png */,
+				A1E7FD2516A260A6008BE866 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E7FD0A16A260A6008BE866 /* lifeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7FD3216A260A6008BE866 /* Build configuration list for PBXNativeTarget "lifeManager" */;
+			buildPhases = (
+				A1E7FD0716A260A6008BE866 /* Sources */,
+				A1E7FD0816A260A6008BE866 /* Frameworks */,
+				A1E7FD0916A260A6008BE866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lifeManager;
+			productName = lifeManager;
+			productReference = A1E7FD0B16A260A6008BE866 /* lifeManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E7FD0216A260A6008BE866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "yin yi";
+			};
+			buildConfigurationList = A1E7FD0516A260A6008BE866 /* Build configuration list for PBXProject "lifeManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1E7FD0016A260A6008BE866;
+			productRefGroup = A1E7FD0C16A260A6008BE866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E7FD0A16A260A6008BE866 /* lifeManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E7FD0916A260A6008BE866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7FD1A16A260A6008BE866 /* InfoPlist.strings in Resources */,
+				A1E7FD2216A260A6008BE866 /* Default.png in Resources */,
+				A1E7FD2416A260A6008BE866 /* Default@2x.png in Resources */,
+				A1E7FD2616A260A6008BE866 /* Default-568h@2x.png in Resources */,
+				A1E7FD2916A260A6008BE866 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A1E7FD2C16A260A6008BE866 /* MainStoryboard_iPad.storyboard in Resources */,
+				A14FA54716A59AD600F75C7E /* RecordTableViewCellBackgroundSelected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E7FD0716A260A6008BE866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7FD1C16A260A6008BE866 /* main.m in Sources */,
+				A1E7FD2016A260A6008BE866 /* AppDelegate.m in Sources */,
+				A1E7FD2F16A260A6008BE866 /* ViewController.m in Sources */,
+				A1F0690016A2B1F8003EACC9 /* HomeViewController.m in Sources */,
+				A1F0690416A2B390003EACC9 /* LoginViewController.m in Sources */,
+				A1F0690716A2B3C7003EACC9 /* RegisterViewController.m in Sources */,
+				A1F0690E16A2C548003EACC9 /* resManager.m in Sources */,
+				A104C01516AAF79800A1DFB0 /* MainViewController.m in Sources */,
+				A104C01916AB003900A1DFB0 /* DeleteRoleViewController.m in Sources */,
+				A104C01C16AB018A00A1DFB0 /* SelectRoleViewController.m in Sources */,
+				A104C01F16AB09BE00A1DFB0 /* ScoreViewController.m in Sources */,
+				A104C02216AB09D900A1DFB0 /* RewardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1E7FD1816A260A6008BE866 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E7FD1916A260A6008BE866 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1E7FD2716A260A6008BE866 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E7FD2816A260A6008BE866 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A1E7FD2A16A260A6008BE866 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E7FD2B16A260A6008BE866 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1E7FD3016A260A6008BE866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1E7FD3116A260A6008BE866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E7FD3316A260A6008BE866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lifeManager/lifeManager-Prefix.pch";
+				INFOPLIST_FILE = "lifeManager/lifeManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1E7FD3416A260A6008BE866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lifeManager/lifeManager-Prefix.pch";
+				INFOPLIST_FILE = "lifeManager/lifeManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E7FD0516A260A6008BE866 /* Build configuration list for PBXProject "lifeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7FD3016A260A6008BE866 /* Debug */,
+				A1E7FD3116A260A6008BE866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7FD3216A260A6008BE866 /* Build configuration list for PBXNativeTarget "lifeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7FD3316A260A6008BE866 /* Debug */,
+				A1E7FD3416A260A6008BE866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E7FD0216A260A6008BE866 /* Project object */;
+}
